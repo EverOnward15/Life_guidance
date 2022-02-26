@@ -1,0 +1,287 @@
+/* p {
+  color: black;
+  font: cursive;
+  width: 600px;
+}
+
+
+h1 {
+  font: bolder;
+  color:  blanchedalmond;
+  font-size: 40px;
+}
+
+
+
+body {
+
+  margin: 0 auto;
+  background: orangered;
+  padding: 0;
+
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+
+  text-shadow: 3px 3px 1px black;
+}
+*/
+
+html
+{
+  background:  blueviolet;
+
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+
+
+}
+
+.page-style {
+  background: black;
+}
+.page-style::-webkit-scrollbar {
+
+display: none;
+}
+
+.navbar {
+
+    background:black;
+
+    border:  blueviolet;
+}
+
+
+.nav-link,
+.navbar-brand {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 8em !important;
+}
+
+
+.nav-link:hover,.navbar-brand:hover {
+    color: blanchedalmond;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+  font: bolder;
+}
+.description h1 {
+  font-weight: : bold;
+  color:  blueviolet;
+  font-size: 300%;
+  text-shadow: 3px 3px 1px black;
+}
+.description p {
+  color: blanchedalmond;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  color:  darkorange;
+  font-size: 2rem;
+  font:  bolder;
+}
+.description button:hover {
+  background-color: transparent;
+  font:  bolder;
+  color: yellow;
+}
+
+.description p span
+{
+  color: gold
+}
+
+
+.hover_effects {
+  transition: transform .2s;
+}
+
+.hover_effects:hover{
+  transform:scale(1.1);
+}
+
+.features {
+
+ /*background-image: url('Images/Night.jpg');
+
+  background-size: cover;
+  background-position: center;
+  position: relative;*/
+  background:  black;
+  padding-bottom: 4em;
+
+}
+.feature-title {
+  color: blueviolet;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top:  20px;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.feature-title2 {
+  color: blueviolet;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top:  20px;
+  margin-left: 0px;
+  text-transform: uppercase;
+}
+
+.features img {
+  /*-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);*/
+  padding:  2em;
+  border-radius:  0;
+}
+
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+.features .btn {
+    background-color: transparent;
+
+    color: darkorange;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: transparent;
+    color:  blanchedalmond;
+}
+
+.top-buffer {
+  margin-top:3.5em;
+}
+
+.textual-color {
+ color: blanchedalmond;
+ margin-left:  30px;
+
+}
+
+.page-footer {
+    background-color: black;
+    color: #ccc;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+    padding-left: 45em;
+
+}
+.footer-copyright {
+    color: #666;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+.page-footer h6 {
+
+font:  bolder;
+color:  blueviolet;
+
+  text-shadow: 3px 3px 1px black;
+  padding-bottom: 0.5em;
+}
+
+.page-footer p {
+
+  color:  whitesmoke;
+}
+
+footer {
+
+background:  black;
+border-top: warning;
+border-radius: 10px;
+
+ /* background-image: url('Images/Night.jpg');
+    background-size: cover;
+  background-position: center;
+  position: relative;
+*/
+}
+
+
+
+
+.card {
+  background-color: black!important;
+}
+
+.card-title {
+    color: blueviolet;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top:  20px;
+  margin-left: 0px;
+  text-transform: uppercase;
+}
+
+.card-text{
+ color: blanchedalmond;
+}
+
+.card-body button {
+  color:  darkorange;
+  font-size: 2rem;
+  font:  bolder;
+  position: a;
+}
+.card-body button:hover {
+  background-color: transparent;
+  font:  bolder;
+  color: yellow;
+
+}
+
+
+
+body footer {
+  padding-top: 1em;
+  color: blanchedalmond;
+}
+
+body footer span {
+  color: grey;
+}
+
+body footer h6 {
+  font-weight: bold;
+}

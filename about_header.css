@@ -1,0 +1,27 @@
+.header {
+  background-image: url('Images/About.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.box_about{
+  float: left;
+  margin-top: 7.5%;
+  margin-left: 7.5%;
+  display: inline-block;
+  padding: 15em;
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+}
+
+.box_about2{
+  float: right;
+  margin-top: 7.5%;
+  margin-right: 7.5%;
+  display: inline-block;
+  padding: 15em;
+
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+}
