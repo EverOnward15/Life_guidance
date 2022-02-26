@@ -1,8 +1,8 @@
 # Life_guidance
 Personal demonstration website. 
 
-This is a working site built on Bootstrap. Please note Github doesn't render it properly - possibly because I downloaded bootstrap-related filed locally, instead of adding
-a source link in index.html page. The dependency breaks. 
+This is a working site built on Bootstrap. Please note it's a work in progress. It was built for desktops in mind and needs a bit more tweaking to be fully mobile-friendly,
+imo. 
 
-You can download the files and run them on a local server (I used WAMP).
+We'll be turning this into our own full-fledged site in the near future :) 
 
